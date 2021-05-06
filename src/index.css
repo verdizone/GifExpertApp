@@ -1,7 +1,16 @@
-
+body{
+    background-color: beige;
+    padding-bottom: 30px;
+}
 
 .main-container{
     margin-top: 30px;
+}
+
+.card-grid{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 
 .card{
@@ -21,11 +30,6 @@
 }
 
 .card img{
-    max-height: 170px;
-}
-
-.card-grid{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+    max-height: 120px;
+    width: auto;
 }
